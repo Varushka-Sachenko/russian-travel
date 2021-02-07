@@ -1,0 +1,18 @@
+.footer__link{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    /* identical to box height, or 112% */
+    color: #FFFFFF;
+    margin-left: 18px;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 767px){
+    .footer__link{
+        margin-bottom: 32px;
+    }
+}
