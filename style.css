@@ -1,0 +1,170 @@
+.header{
+    background-color: #2A2C2F;
+}
+
+.content{
+    background-color: #2A2C2F;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.footer{
+    background-color: #2A2C2F;
+}
+
+.lead__image{
+    background-image: url(images/lead-polka.jpg);
+}
+
+.lead__title{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+}
+
+.lead__subtitle{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lead__Group4{
+    align-self: center;
+}
+
+.lead__caption{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height, or 140% */
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+.intro__title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    /* identical to box height, or 107% */
+    color: #FFFFFF;
+}
+.intro__text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+    /* or 26px */
+    color: #FFFFFF;
+}
+
+.intro__list{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    color: #FFFFFF;
+    list-style: none;
+}
+
+
+.place__title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+    color: #FFFFFF;
+}
+
+.place__url-heading{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+}
+
+.place__link{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.place__paragraph{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+    /* or 29px */
+    color: #FFFFFF;
+}
+
+.cover__title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cover__subtitle{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* or 122% */
+text-align: center;
+color: #FFFFFF;
+}
+
+.photo-grid{
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+
+.cover{
+    background-image: url(images/cover-trains.jpg);
+}
+
+
+.footer__links{
+    list-style: none;
+    display: flex;
+}
