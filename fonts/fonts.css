@@ -13,3 +13,11 @@
   src: local("Inter"),
   url("static/Inter-Regular.ttf") format("truetype");
 }  
+
+@font-face{
+  font-family: "Inter";
+  font-style: normal;
+	font-weight: bold;
+  src: local("Inter"),
+  url("static/Inter-Bold.ttf") format("truetype");
+}  
