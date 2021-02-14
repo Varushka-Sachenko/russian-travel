@@ -4,13 +4,13 @@
     margin: 0;
     padding: 0;
     margin-right: 48px;
+    align-items: flex-end;
     
 }
 
 @media screen and (max-width: 767px){
     .header__lang-links{
         margin-right: 16px;
-        margin-top: 30px;
     }
 }
 

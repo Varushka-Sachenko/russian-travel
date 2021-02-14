@@ -2,5 +2,5 @@
     align-self: end;
     display: flex;
     flex-direction: column;
-    margin: 0 16px;
+    grid-area: url;
 }

@@ -1,7 +1,42 @@
 .place{
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(139px, 1fr));
     grid-gap: 1em;
+}
+
+.place{
+    max-width: 984px;
+    margin-bottom: 72px;
+    display: grid;
+    grid-template-areas:
+      "title url"
+      "image paragraphs";
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3.75rem;  
+}
+  
+@media screen and (max-width : 900px) {
+    .place {
+        column-gap: 1.75rem;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .place {
+        max-width: 320px;
+        margin-bottom: 48px;
+        grid-template-areas:
+          "title"
+          "url"
+          "image"
+          "paragraps";
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}
+
+.place:last-of-type {
+    margin-bottom: 0;
 }

@@ -8,6 +8,7 @@
 
 
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__image/cover__image.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
@@ -45,3 +46,4 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__li/footer__li.css);

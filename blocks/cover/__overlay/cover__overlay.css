@@ -1,13 +1,16 @@
 .cover__overlay{
-    width: 100%;
-    height: inherit;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 1;
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: stretch;
+    align-self: stretch;
     text-decoration: none;
-    background-color: rgba(42, 44, 47, 0.3);
+    box-shadow: 0 0 0 372px rgba(42, 44, 47, 0.3) inset;
 }
 
 .cover__overlay:hover{
-    background-color: rgba(42, 44, 47, 0.8);
+    box-shadow: 0 0 0 372px rgba(42, 44, 47, 0.8) inset;
 }
