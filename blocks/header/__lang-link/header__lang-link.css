@@ -6,13 +6,17 @@
     line-height: 28px;
     /* identical to box height, or 117% */
     text-align: right;
-    text-decoration-line: underline;
+    text-decoration-line: none;
     color: #FFFFFF;
     margin-left: 18px;
 }
 
+.header__lang-link:visited{
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 767px){
-    .header__lang-links{
+    .header__lang-link{
         font-size: 18px;
         line-height: 20px;
     }

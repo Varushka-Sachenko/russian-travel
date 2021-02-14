@@ -7,4 +7,9 @@
     /* or 29px */
     color: #FFFFFF;
     margin: 0 16px;
+    margin-bottom: 26px;
+}
+
+.place__paragraph:nth-last-child(1){
+    margin-bottom: 0;
 }

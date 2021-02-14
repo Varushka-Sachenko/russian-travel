@@ -1,12 +1,16 @@
 .header__lang-links{
     list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0;
     margin-right: 48px;
+    
 }
 
 @media screen and (max-width: 767px){
     .header__lang-links{
         margin-right: 16px;
+        margin-top: 30px;
     }
 }
 
