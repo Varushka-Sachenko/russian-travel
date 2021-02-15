@@ -1,0 +1,10 @@
+.places__paragraphs{
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 767px){
+    .places__paragraphs{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
