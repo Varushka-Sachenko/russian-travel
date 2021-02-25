@@ -8,7 +8,7 @@
     align-self: stretch;
     text-decoration: none;
     box-shadow: 0 0 0 372px rgba(42, 44, 47, 0.3) inset;
-    align-content: end;
+    align-content: center;
 }
 
 .cover__overlay:hover{
